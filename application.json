@@ -46,10 +46,10 @@
       "uidString": "jsonwebtoken_/libraries/jsonwebtoken@8.5.1.js"
     },
     {
-      "uidString": "AWS_https://sdk.amazonaws.com/js/aws-sdk-2.410.0.min.js"
+      "uidString": "UUID_https://cdn.jsdelivr.net/npm/uuidjs@4.2.12/src/uuid.min.js"
     },
     {
-      "uidString": "UUID_https://cdn.jsdelivr.net/npm/uuidjs@4.2.12/src/uuid.min.js"
+      "uidString": "AWS_https://sdk.amazonaws.com/js/aws-sdk-2.410.0.min.js"
     }
   ],
   "publishedCustomJSLibs": [],
