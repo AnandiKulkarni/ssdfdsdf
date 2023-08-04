@@ -1,0 +1,15 @@
+{
+  "unpublishedCollection": {
+    "name": "TC4",
+    "pageId": "Page 2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Page 2_TC4",
+  "deleted": false,
+  "gitSyncId": "62c6b8c50721a64d32ce5df8_62c6ba550721a64d32ce5f2e"
+}

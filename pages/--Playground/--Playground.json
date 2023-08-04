@@ -1,0 +1,71 @@
+{
+  "unpublishedPage": {
+    "name": "--Playground",
+    "slug": "playground",
+    "customSlug": "ignore-page-1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 380,
+          "containerStyle": "none",
+          "snapRows": 66,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 80,
+          "minHeight": 670,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "--Playground_JSObject14.myFun1",
+              "name": "JSObject14.myFun1",
+              "collectionId": "--Playground_JSObject14",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  showAlert('namaskara');\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "--Playground_JSObject14.myFun2",
+              "name": "JSObject14.myFun2",
+              "collectionId": "--Playground_JSObject14",
+              "clientSideExecution": true,
+              "confirmBeforeExecute": false,
+              "pluginType": "JS",
+              "jsonPathKeys": [
+                "() => {\n  showAlert('namaste');\n}"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "--Playground",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": true
+  },
+  "deleted": false,
+  "gitSyncId": "64cce47ef277b4643797c7b3_64cce47ef277b4643797c7c3"
+}

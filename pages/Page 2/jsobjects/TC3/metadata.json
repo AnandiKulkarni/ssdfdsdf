@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "TC3",
+    "pageId": "Page 2",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[{\n  \"label\": \"Page navigation\",\n  \"value\": \"Page navigation\"\n}, {\n  \"label\": \"Widget navigation\",\n  \"value\": \"Widget navigation\"\n}, {\n  \"label\": \"Tab navigation - WIP\",\n  \"value\": \"Tab navigation\"\n}, {\n  \"label\": \"External navigation\",\n  \"value\": \"External navigation\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page 2_TC3",
+  "deleted": false,
+  "gitSyncId": "62c6b8c50721a64d32ce5df8_62c6ba550721a64d32ce5f30"
+}

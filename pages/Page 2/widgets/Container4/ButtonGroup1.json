@@ -1,0 +1,84 @@
+{
+    "boxShadow": "none",
+    "widgetName": "ButtonGroup1",
+    "isCanvas": false,
+    "dynamicPropertyPathList": [
+        {"key": "groupButtons.groupButton0c5t9yzrfh.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"}
+    ],
+    "displayName": "Button Group",
+    "iconSVG": "/static/media/icon.d6773218.svg",
+    "topRow": 9,
+    "bottomRow": 15,
+    "parentRowSpace": 10,
+    "groupButtons": {
+        "groupButton0c5t9yzrfh": {
+            "onClick": "{{TC4_main.both()}}",
+            "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "r41vw4o7o3",
+            "menuItems": {},
+            "index": 2,
+            "id": "groupButton0c5t9yzrfh",
+            "label": "Both",
+            "placement": "CENTER",
+            "isDisabled": false,
+            "isVisible": true
+        },
+        "groupButton1": {
+            "onClick": "{{TC4_main.cat()}}",
+            "buttonType": "SIMPLE",
+            "iconName": "heart",
+            "buttonColor": "#f3e8ff",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 0,
+            "label": "Cat",
+            "id": "groupButton1",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        },
+        "groupButton2": {
+            "onClick": "{{TC4_main.dog()}}",
+            "buttonType": "SIMPLE",
+            "iconName": "cloud",
+            "buttonColor": "#fee2e2",
+            "widgetId": "",
+            "menuItems": {},
+            "index": 1,
+            "label": "Dog",
+            "id": "groupButton2",
+            "placement": "CENTER",
+            "isVisible": true,
+            "isDisabled": false
+        }
+    },
+    "type": "BUTTON_GROUP_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "parentColumnSpace": 9.02128928899765,
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton1.onClick"},
+        {"key": "groupButtons.groupButton2.onClick"},
+        {"key": "groupButtons.groupButton0c5t9yzrfh.onClick"}
+    ],
+    "leftColumn": 17,
+    "dynamicBindingPathList": [
+        {"key": "groupButtons.groupButton0c5t9yzrfh.buttonColor"},
+        {"key": "borderRadius"}
+    ],
+    "key": "vnw8w44kcq",
+    "orientation": "horizontal",
+    "isDeprecated": false,
+    "rightColumn": 47,
+    "widgetId": "cp1ku9sd4h",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "hdrkhj2fvt",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "buttonVariant": "PRIMARY"
+}

@@ -1,0 +1,50 @@
+{
+    "boxShadow": "none",
+    "widgetName": "RadioGroup1",
+    "displayName": "Radio Group",
+    "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
+    "searchTags": ["choice"],
+    "topRow": 23,
+    "bottomRow": 32,
+    "parentRowSpace": 10,
+    "labelWidth": "6",
+    "type": "RADIO_GROUP_WIDGET",
+    "hideCard": false,
+    "defaultOptionValue": "Y",
+    "animateLoading": true,
+    "parentColumnSpace": 17.625,
+    "dynamicTriggerPathList": [],
+    "leftColumn": 46,
+    "dynamicBindingPathList": [{"key": "accentColor"}],
+    "labelPosition": "Left",
+    "options": [
+        {
+            "label": "Yes",
+            "value": "Y"
+        },
+        {
+            "label": "No",
+            "value": "N"
+        }
+    ],
+    "isDisabled": false,
+    "key": "ekhr4wfb2d",
+    "labelTextSize": "0.875rem",
+    "isRequired": false,
+    "isDeprecated": false,
+    "rightColumn": 63,
+    "dynamicHeight": "FIXED",
+    "widgetId": "tdeulieh26",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+    "isVisible": true,
+    "label": "Catch block test",
+    "version": 1,
+    "parentId": "kk1k58hv9w",
+    "labelAlignment": "left",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "maxDynamicHeight": 9000,
+    "isInline": true,
+    "alignment": "left",
+    "minDynamicHeight": 4
+}

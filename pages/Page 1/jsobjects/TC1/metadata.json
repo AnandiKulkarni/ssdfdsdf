@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "TC1",
+    "pageId": "Page 1",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "selectOptions",
+        "value": "[{\n  \"label\": \"Blue\",\n  \"value\": \"#7e98c2\"\n}, {\n  \"label\": \"Green\",\n  \"value\": \"#96b080\"\n}, {\n  \"label\": \"Red\",\n  \"value\": \"#ba5059\"\n}, {\n  \"label\": \"Yellow\",\n  \"value\": \"#ebe58f\"\n}, {\n  \"label\": \"Grey\",\n  \"value\": \"#a6aeba\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "Page 1_TC1",
+  "deleted": false,
+  "gitSyncId": "62c6b8c50721a64d32ce5df8_62c6b8c70721a64d32ce5ed2"
+}

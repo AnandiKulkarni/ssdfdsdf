@@ -1,0 +1,65 @@
+{
+  "pages": [
+    {
+      "id": "--Playground",
+      "isDefault": false
+    },
+    {
+      "id": "Page 2",
+      "isDefault": false
+    },
+    {
+      "id": "Page 3",
+      "isDefault": false
+    },
+    {
+      "id": "--Playground1",
+      "isDefault": false
+    },
+    {
+      "id": "Navigated Page",
+      "isDefault": false
+    },
+    {
+      "id": "Page 1",
+      "isDefault": true
+    },
+    {
+      "id": "Page 4",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "6401ef3830ce2a073e2f61e8",
+  "color": "#FFEBFB",
+  "icon": "steam-bowl",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "jsonwebtoken_/libraries/jsonwebtoken@8.5.1.js"
+    },
+    {
+      "uidString": "AWS_https://sdk.amazonaws.com/js/aws-sdk-2.410.0.min.js"
+    },
+    {
+      "uidString": "UUID_https://cdn.jsdelivr.net/npm/uuidjs@4.2.12/src/uuid.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "embedSetting": {
+    "height": "720px",
+    "width": "1024px",
+    "showNavigationBar": false
+  },
+  "isManualUpdate": false,
+  "deleted": false
+}
