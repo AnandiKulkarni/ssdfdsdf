@@ -34,7 +34,9 @@
               "pluginType": "API",
               "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
-            },
+            }
+          ],
+          [
             {
               "id": "Page 1_JSObject1.myFun2",
               "name": "JSObject1.myFun2",
@@ -75,7 +77,9 @@
               "clientSideExecution": true,
               "confirmBeforeExecute": false,
               "pluginType": "JS",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "async () => {\n  failingQuery.run().then(() => showAlert(\"Query run was successful\")).catch(() => {\n    randomUserGenerator.run().then(res => {\n      let values = [storeValue('pic', res.results[0].picture.large), storeValue('dob', res.results[0].dob.date), storeValue('phone', res.results[0].phone), storeValue('cell', res.results[0].cell), storeValue('email', res.results[0].email), storeValue('password', res.results[0].login.password), storeValue('lat', res.results[0].location.coordinates.latitude), storeValue('long', res.results[0].location.coordinates.longitude), storeValue('title', res.results[0].name.title), storeValue('first', res.results[0].name.first), storeValue('last', res.results[0].name.last), storeValue('gender', res.results[0].gender)];\n      return Promise.all(values).then(() => {\n        showAlert(\"completed storing all values and now displaying all values on appropriate widgets\");\n      }).catch(err => {\n        console.log(\"Could not store value in store  \", err.toString());\n        showAlert('Could not store values in store ', err.toString());\n      });\n    });\n  });\n}"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
