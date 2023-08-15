@@ -28,10 +28,10 @@ export default {
 			.then(() => {
 			resetWidget('Select1')
 			resetWidget('Table1')
-			this.myFun2() 		//return a message
+			this.myFun2() 		//return a message new test
 				.then(async () => {
 				await storeValue('selected', Select1.selectedOptionLabel)
-				await showAlert('background colour is now ' + appsmith.store.selected) }) 
+				showAlert('background colour is now ' + appsmith.store.selected) }) 
 		}) 		//return a second toast message
 			.catch((e) =>  {
 			resetWidget('RadioGroup1')
